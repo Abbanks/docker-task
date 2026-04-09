@@ -23,3 +23,5 @@ Execute the image as a container to see the output.
 ```bash
 docker run hello-world
 ```
+
+![alt text](image.png)
