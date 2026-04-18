@@ -59,5 +59,5 @@ docker run hello-world
 - Set up Docker Hub authentication using GitHub secrets
 - Verified the CI/CD pipeline successfully builds and pushes the image to Docker Hub
 
-![alt text](image-1.png)
+![alt text](succesful-image-push.png)
 Docker Hub Repository: [https://hub.docker.com/r/olubanke/hello-world-app](https://hub.docker.com/r/olubanke/hello-world-app)
