@@ -28,7 +28,7 @@ Execute the image as a container to see the output.
 docker run hello-world
 ```
 
-![alt text](image.png)
+![alt text](hello-world.png)
 
 ---
 
