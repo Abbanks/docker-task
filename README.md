@@ -61,3 +61,24 @@ docker run hello-world
 
 ![alt text](succesful-image-push.png)
 Docker Hub Repository: [https://hub.docker.com/r/olubanke/hello-world-app](https://hub.docker.com/r/olubanke/hello-world-app)
+
+## Running Containers
+
+This Docker Compose setup includes the following services:
+
+- **Grafana** (Port 3000)
+- **Prometheus** (Port 9090)
+- **Blackbox Exporter** (Port 9115) 
+
+![running-containers](containers.png)
+### Service Details
+
+| Service | Port | Purpose |
+|---------|------|---------|
+| Grafana | 3000 | Web UI for visualizing Prometheus metrics |
+| Prometheus | 9090 | Time-series database for storing metrics |
+| Blackbox Exporter | 9115 | Probing endpoints over HTTP, HTTPS, DNS, TCP, ICMP |
+
+### Starting Services
+```bash
+docker-compose up -d
